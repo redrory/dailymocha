@@ -1,0 +1,7 @@
+== DailyMocha
+
+Showing your Instagram photos in a calendar
+
+Tools:
+Rails 3.2.14
+simple_calendar  - excid3

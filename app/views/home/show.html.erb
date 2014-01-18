@@ -1,0 +1,3 @@
+<%= calendar @events, {prev_text: "<-", next_text: "->", start_day: :monday } do |event| %>
+  <div> <%= link_to event.title, event %></div>
+<% end %>
