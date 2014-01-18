@@ -3,6 +3,6 @@ class HomeController < ApplicationController
   end
 
   def home
-    env["omniauth.auth"].to_yaml
+
   end
 end
