@@ -11,6 +11,7 @@ gem "simple_calendar", "~> 0.1.9"
 gem "instagram"
 gem "figaro"
 gem 'omniauth-twitter'
+gem 'twitter'
 
 group :development do
   gem 'sqlite3'

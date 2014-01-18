@@ -24,6 +24,11 @@
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
+            <% if current_user %>
+              <li> <%= link_to "Sign Out", signout_path%> </li>
+            <% else %>
+              <li> <%= link_to "Sign in with Twitter", "/auth/twitter" %> </li>
+            <% end %>
         </ul>
         <h3 class="text-muted">Daily Mocha</h3>
       </div>
