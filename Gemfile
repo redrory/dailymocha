@@ -8,6 +8,8 @@ gem 'rails', '3.2.14'
 
 gem 'twitter-bootstrap-rails'
 gem "simple_calendar", "~> 0.1.9"
+gem "instagram"
+gem "figaro"
 
 group :development do
   gem 'sqlite3'

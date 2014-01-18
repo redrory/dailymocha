@@ -6,4 +6,5 @@ Dailymocha::Application.routes.draw do
   root :to => "home#show"
 
   match "cal" => "home#show"
+
 end
