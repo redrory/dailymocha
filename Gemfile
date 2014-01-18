@@ -10,6 +10,7 @@ gem 'twitter-bootstrap-rails'
 gem "simple_calendar", "~> 0.1.9"
 gem "instagram"
 gem "figaro"
+gem 'omniauth-twitter'
 
 group :development do
   gem 'sqlite3'

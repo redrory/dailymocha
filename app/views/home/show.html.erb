@@ -1,3 +1,9 @@
 <%= calendar @events, {prev_text: "<-", next_text: "->", start_day: :monday } do |event| %>
   <div> <%= link_to event.title, event %></div>
 <% end %>
+
+<% if current_user %>
+  <%= current_user.name %> | <%= link_to "Sign Out", signout_path %>
+  <% else %>
+  <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+<% end %>
